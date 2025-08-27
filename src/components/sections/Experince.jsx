@@ -2,15 +2,15 @@ import ExperienceCard from "../ui/ExperanceCard";
 
 const Experience = () => {
   return (
-    <div id="experience" className="w-full  bg-[#000319] flex flex-col  items-center pt-24 ">
+    <div id="experience" className="w-full  bg-[#000319] flex flex-col  items-center pt-24  ">
       <div className="lg:text-[48px] md:text-[44px] text-[30px] font-bold">
         <span className="text-white">My </span>
         <span className="text-[#CBACF9]"> work experince </span>
       </div>
-      <div className="grid lg:grid-cols-2 lg:gap-10 gap-6 pt-12 ">
+      <div className="grid lg:grid-cols-2 lg:gap-8 xl:gap-10 gap-6 pt-12 ">
         <ExperienceCard
           img="/src/assets/group1.svg"
-          heading="Frontend Engineer Intern"
+          heading="Frontend Devloper Intern"
           para="Assisted in the development of a web-based platform using React.js, enhancing interactivity at Wyreflow Tech."
         />
         <ExperienceCard
@@ -20,8 +20,8 @@ const Experience = () => {
         />
         <ExperienceCard
           img="/src/assets/group3.svg"
-          heading="Lead Frontend Developer"
-          para="Managed and led the frontend development team at Wireflow Technology, delivering user-centric solutions."
+          heading="Frontend Lead"
+          para="Managed and lead the frontend development team at Wireflow Technology."
         />
         <ExperienceCard
           img="/src/assets/group4.svg"

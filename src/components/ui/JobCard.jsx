@@ -10,8 +10,8 @@ const JobCard = ({img, h1, p, icon1, icon2, icon3, icon4, liveUrl}) => {
     };
 
     return (
-        <div className="lg:w-[590px] md:w-[610px] w-[90vw] md:h-fit h-fit bg-[#0C0E23] border border-[#363749] rounded-2xl flex flex-col px-4 py-4 md:p-8 lg:px-4 lg:py-6 gap-1">
-            <div className="md:h-[350px] lg:h-[350px]  h-[218px]  items-center "><img src={img} alt="Job"  /></div>
+        <div className="xl:w-[590px] lg:w-[460px] md:w-[610px] w-[90vw] md:h-fit h-fit bg-[#0C0E23] border border-[#363749] rounded-2xl flex flex-col px-4 py-4 md:p-8 lg:px-4 lg:py-6 gap-1">
+            <div className="md:h-[350px] lg:h-[270px] xl:h-[350px]  h-[218px]  items-center "><img src={img} alt="Job"  /></div>
             <div className="text-left">
                 <h1 className="text-[20px] md:text-[32px] font-bold text-white">{h1}</h1>
                 <p className="text-[16px] mdtext-[20px] font-normal text-white mt-2 ">{p}</p>

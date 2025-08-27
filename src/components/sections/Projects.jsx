@@ -16,7 +16,7 @@ const Projects = () => {
             <span className="lg:text-[48px] md:text-[44px] text-[30px] font-bold  text-white">A small selection of </span>
             <span className="text-[30px] md:text-[44px] lg:text-[48px] font-bold text-[#CBACF9] pl-3">recent projects</span>
             </div>
-            <div className="grid lg:grid-cols-2 gap-10 pt-16">
+            <div className="grid lg:grid-cols-2 gap-10 lg:gap-8 pt-16">
 
             <JobCard img="/src/assets/crtd.svg" 
              h1={"CRTD Technology Web Application"}
@@ -28,22 +28,22 @@ const Projects = () => {
              liveUrl="https://crtd.in/"
              />
             <JobCard img="/src/assets/excelidraw.svg" 
-             h1={"Excalidraw- A Whiteboard App"}
+             h1={"Excelidraw- A Whiteboard App"}
              p={"Built Excelidraw, a real-time collaborative whiteboard app with HTTP and WebSocket backends, a Next.js frontend, and PostgreSQL using Prisma ORM. Managed the project in a Turborepo monorepo for efficient development."}
              icon1={<RiNextjsFill size={24} color="FFFFFF" />}
              icon2={<BiLogoTypescript size={24} color="3178C6" />}
              icon3={<BiLogoPostgresql size={24} color="38BDF8" />}
              icon4={<SiTurborepo size={24} color="#FF6B6B" />} 
-             liveUrl="https://yoom-video-conferencing.vercel.app"
+             liveUrl="https://github.com/chouhanrahul1999/Exceliodraw"
              />
             <JobCard img="/src/assets/paytm.svg" 
              h1={"Digital payment application"}
-             p={"A digital payment application built with Next.js, TypeScript, and PostgreSQL, featuring secure authentication, P2P transfers, and real-time transaction tracking."}
+             p={"A digital payment application built with Next.js, TypeScript, and PostgreSQL, featuring secure authentication, P2P transfers, and real-time transaction tracking and intrection with bank."}
              icon1={<RiNextjsFill size={24} color="FFFFFF" />}
              icon2={<BiLogoTypescript size={24} color="3178C6" />}
              icon3={<BiLogoPostgresql size={24} color="38BDF8" />}
              icon4={<SiPrisma size={24} color="38BDF8" />} 
-             liveUrl="https://ai-image-saas.vercel.app"
+             liveUrl="https://github.com/chouhanrahul1999/paytm"
              />
             <JobCard img="/src/assets/brainly.svg" 
              h1={"Brainly - Knowledge Hub"}
@@ -52,7 +52,7 @@ const Projects = () => {
              icon2={<BiLogoTypescript size={24} color="3178C6" />}
              icon3={<SiMongodb size={24} color="00684A" />}
              icon4={<SiExpress size={24} color="38BDF8" />} 
-             liveUrl="https://animated-iphone-3d.vercel.app"
+             liveUrl="https://github.com/chouhanrahul1999/brainly"
              />
             </div>
           </div>

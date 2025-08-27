@@ -10,17 +10,17 @@ import {
 const Contact = () => {
   return (
     <div id="contact" className="h-fit w-full bg-[#000319]">
-      <div className="bg-[url('/src/assets/grid2.svg')] bg-cover bg-center bg-no-repeat h-full w-screen flex flex-col items-center gap-4">
+      <div className="bg-[url('/src/assets/grid2.svg')] bg-cover bg-center bg-no-repeat h-full w-full flex flex-col items-center gap-4">
         <div className="font-bold md:text-[48px] text-[36px] text-white md:max-w-4xl px-4 md:pt-40 pt-24 text-center md:leading-14 leading-10 ">
           <span>Ready to take</span><span className="text-[#CBACF9]"> your</span><span> digital presence to the next level?</span>
         </div>
         <div className="font-medium text-[16px] text-white text-center px-6 py-2">
           Reach out to me today and let's discuss how I can help you achieve
           your goals.
-        </div>
+        </div >
         <a 
           href="mailto:chouhanrahul1999@gmail.com?subject=Portfolio Inquiry&body=Hi Rahul, I'd like to discuss a project with you."
-          className="flex gap-2 text-[18px] px-12 mt-4 py-4 border border-[#272A3C]  bg-gradient-to-r from-[#161A31] to-[#06091F] text-white font-semibold rounded-xl shadow-md h-16 w-auto mb-20 md:mb-28 hover:from-[#1a1f3a] hover:to-[#0a0d25] transition-all duration-300"
+          className="flex justify-center items-center gap-2 text-[18px] px-12 mt-4 py-4 border border-[#272A3C]  bg-gradient-to-r from-[#161A31] to-[#06091F] text-white font-semibold rounded-xl shadow-md h-16 w-auto mb-20 md:mb-28 hover:from-[#1a1f3a] hover:to-[#0a0d25] transition-all duration-300"
         >
           Contact Me Now{" "}
           <span>
@@ -28,7 +28,7 @@ const Contact = () => {
           </span>
         </a>
         <div className="flex flex-col md:flex-row gap-4 mt-auto w-full justify-between px-16 pb-8   items-center">
-          <div className="text-white text-[14px]">Copyright ©2024 Rahul Singh</div>
+          <div className="text-white text-[14px]">Copyright ©2025 Rahul Singh</div>
           <div className="flex gap-2 flex-row ">
             <a href="https://github.com/chouhanrahul1999" target="_blank" rel="noopener noreferrer" className="h-10 w-10 bg-radial from- from-40% to-[#161A31] backdrop-blur-sm border border-[#272A3C]/50 rounded-xl flex items-center justify-center hover:bg-[#05041F]/90 transition-all duration-300 shadow-lg">
               <FaGithub size={18} color="white" />
