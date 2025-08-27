@@ -43,9 +43,9 @@ const About = () => {
           <div className="flex flex-col justify-center items-center lg:flex-col gap-6 lg:gap-6 lg:justify-center">
             <div className="bg-gradient-to-r from-[#04071D] to-[#0C0E23] opacity-90 border border-[#363749] xl:w-[521px] lg:w-[432px] w-[90vw] lg:h-[245px] md:h-[330px] h-[195px] rounded-3xl overflow-hidden ">
               <div className="text-white text-3xl text-[20px] md:text-[30px] xl:text-[30px] lg:text-[26px] text-center pt-8 pb-1 md:pt-12 md:pb-8 lg:pb-1 px-12 font-bold flex justify-start items-center">
-                I'm very flexible with time zone communications
+                I'm flexible with time‑zone communication
               </div>
-              <div className="bg-[url('/src/assets/Pagination.svg')] bg-cover bg-clip-border bg-no-repeat xl:w-[501px] lg:w-[480px]  w-[90vw] xl:h-[120px] lg:h-[130px] md:h-[205px] h-[110px] rounded-2xl flex flex-col justify-between items-start "></div>
+              <div className="bg-[url('/src/assets/Pagination.svg')] bg-cover bg-clip-border bg-no-repeat xl:w-[501px] lg:w-[480px]  w-[90vw] xl:h-[120px] lg:h-[130px] md:h-[205px] h-[100px] rounded-2xl flex flex-col justify-between items-start "></div>
             </div>
             <div className="bg-[url('/src/assets/box-type.svg')] bg-cover bg-center bg-no-repeat border border-[#363749] xl:w-[521px] lg:w-[432px] w-[90vw] md:h-[330px]  lg:h-[245px] h-[195px] rounded-3xl flex justify-center lg:pl-6 md:pl-6 pl-4 flex-col">
               <div className="text-[#C1C2D3] text-[10px] md:text-[14px] lg:text-[16px] font-normal">
@@ -79,9 +79,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className=" border-[#363749] border relative bg-[url('/src/assets/box6.svg')] bg-cover bg-center bg-no-repeat xl:w-[835px] lg:w-[600px] w-[90vw] lg:h-[390px] h-[180px] md:h-[200px] rounded-3xl text-white  flex justify-center flex-col xl:pl-12 lg:pl-8         vvvvvvvvv                                                                                                                                                                                                                                                                               pl-4  ">
+          <div className=" border-[#363749] border relative bg-[url('/src/assets/box6.svg')] bg-cover bg-center bg-no-repeat xl:w-[835px] lg:w-[600px] w-[90vw] lg:h-[390px] h-[180px] md:h-[200px] rounded-3xl text-white  flex justify-center flex-col xl:pl-12 lg:pl-8 pl-4  ">
             <span className="pb-2 font-normal lg:text-[14px] md:text-[14px] text-[10px} lg:tracking-widest text-[#E4ECFF]">THE INSIDE SCOOP</span>
-            <span className="lg:text-[32px] md:text-[26px] text-[20px] font-bold leading-tight">Currently building a <br />Job searching <br /> platform for Fresher</span>
+            <span className="lg:text-[32px] md:text-[26px] text-[20px] font-bold leading-tight">Currently building a <br />job‑search platform <br /> for freshers</span>
             
           </div>
         </div>

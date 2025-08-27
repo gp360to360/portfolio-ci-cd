@@ -15,8 +15,7 @@ const Contact = () => {
           <span>Ready to take</span><span className="text-[#CBACF9]"> your</span><span> digital presence to the next level?</span>
         </div>
         <div className="font-medium text-[16px] text-white text-center px-6 py-2">
-          Reach out to me today and let's discuss how I can help you achieve
-          your goals.
+          Reach out today and let’s discuss how I can help you achieve your goals.
         </div >
         <a 
           href="mailto:chouhanrahul1999@gmail.com?subject=Portfolio Inquiry&body=Hi Rahul, I'd like to discuss a project with you."
@@ -27,8 +26,8 @@ const Contact = () => {
             <ArrowUpRight />
           </span>
         </a>
-        <div className="flex flex-col md:flex-row gap-4 mt-auto w-full justify-between px-16 pb-8   items-center">
-          <div className="text-white text-[14px]">Copyright ©2025 Rahul Singh</div>
+        <div className="flex flex-col-reverse md:flex-row gap-4 mt-auto w-full justify-between px-16 pb-8   items-center">
+          <div className="text-white md:pt-0 pt-4 text-[14px]">Copyright ©2025 Rahul Singh</div>
           <div className="flex gap-2 flex-row ">
             <a href="https://github.com/chouhanrahul1999" target="_blank" rel="noopener noreferrer" className="h-10 w-10 bg-radial from- from-40% to-[#161A31] backdrop-blur-sm border border-[#272A3C]/50 rounded-xl flex items-center justify-center hover:bg-[#05041F]/90 transition-all duration-300 shadow-lg">
               <FaGithub size={18} color="white" />

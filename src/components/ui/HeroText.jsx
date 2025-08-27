@@ -13,7 +13,7 @@ const HeroText = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-20 md:mt-0 gap-6">
       <div className="text-white md:text-[15px] text-[12px] font-medium tracking-widest">
-        DYNAMIC WEB MAGIC WITH NEXT.JS & REACT
+      DYNAMIC WEB EXPERIENCES WITH NEXT.JS & REACT
       </div>
       <div>
         <div className="md:max-w-5xl text-center">
@@ -27,7 +27,7 @@ const HeroText = () => {
         <div></div>
       </div>
       <div className="text-white text-center font-normal text-[16px] md:text-[24px] px-6 md:tracking-widest">
-        Hi! I’m Rahul Singh, a Fullstack Developer based in India
+        Hi! I’m Rahul Singh, a full‑stack developer based in India
       </div>
       <button
         onClick={handleScrollToProjects}

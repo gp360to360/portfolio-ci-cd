@@ -5,23 +5,23 @@ const Experience = () => {
     <div id="experience" className="w-full  bg-[#000319] flex flex-col  items-center pt-24  ">
       <div className="lg:text-[48px] md:text-[44px] text-[30px] font-bold">
         <span className="text-white">My </span>
-        <span className="text-[#CBACF9]"> work experince </span>
+        <span className="text-[#CBACF9]"> work experience </span>
       </div>
       <div className="grid lg:grid-cols-2 lg:gap-8 xl:gap-10 gap-6 pt-12 ">
         <ExperienceCard
           img="/src/assets/group1.svg"
-          heading="Frontend Devloper Intern"
-          para="Assisted in the development of a web-based platform using React.js, enhancing interactivity at Wyreflow Tech."
+          heading="Frontend Developer Intern"
+          para="Played a key role in building a web‑based platform at Wyreflow Technology using React, improving interactivity and UX."
         />
         <ExperienceCard
           img="/src/assets/group2.svg"
           heading="Personal Projects"
-          para="Independent developer building modern web apps. Expertise in full-stack development ecosystem."
+          para="Built a real‑time whiteboard, a payments app, and a knowledge hub—end‑to‑end (React, Node, SQL/NoSQL) with auth and CI/CD."
         />
         <ExperienceCard
           img="/src/assets/group3.svg"
-          heading="Frontend Lead"
-          para="Managed and lead the frontend development team at Wireflow Technology."
+          heading="Team Lead"
+          para="Led the frontend team at Wyreflow Technology; established architecture and standards, mentored engineers, and delivered features on schedule."
         />
         <ExperienceCard
           img="/src/assets/group4.svg"
