@@ -13,7 +13,7 @@ const HeroText = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-20 md:mt-0 gap-6">
       <div className="text-white md:text-[15px] text-[12px] font-medium tracking-widest">
-      DYNAMIC WEB EXPERIENCES WITH NEXT.JS & REACT
+      DYNAMIC WEB EXPERIENCES WITH REACT & NEXT
       </div>
       <div>
         <div className="md:max-w-5xl text-center">
