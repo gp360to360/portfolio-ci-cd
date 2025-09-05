@@ -16,7 +16,7 @@ const Experience = () => {
         <ExperienceCard
           img="/src/assets/group2.svg"
           heading="Personal Projects"
-          para="Built a real‑time whiteboard, a payments app, and a knowledge hub—end‑to‑end (React, Node, SQL/NoSQL) with auth and CI/CD."
+          para="Built a real‑time whiteboard, a payments app, hospital food management app,  a chat app etc.(React, Node, Nestjs, SQL/NoSQL) with auth and CI/CD."
         />
         <ExperienceCard
           img="/src/assets/group3.svg"

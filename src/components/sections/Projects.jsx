@@ -6,6 +6,7 @@ import { DiNodejs } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
 
 
 const Projects = () => {
@@ -27,23 +28,14 @@ const Projects = () => {
              icon4={<DiNodejs size={24} color="38BDF8" />}
              liveUrl="https://crtd.in/"
              />
-            <JobCard img="/src/assets/excelidraw.svg" 
-             h1={"Excelidraw- A Whiteboard App"}
-             p={"Built Excelidraw, a real-time collaborative whiteboard app with HTTP and WebSocket backends, a Next.js frontend, and PostgreSQL using Prisma ORM. Managed the project in a Turborepo monorepo for efficient development."}
+            <JobCard img="/src/assets/Meal.svg" 
+             h1={"Patient Food Management App"}
+             p={"Developed Mealpe, a real-time patient food management app with a React.js frontend and a PostgreSQL database (TypeORM). The backend uses both HTTP and WebSockets for live data updates."}
              icon1={<RiNextjsFill size={24} color="FFFFFF" />}
              icon2={<BiLogoTypescript size={24} color="3178C6" />}
              icon3={<BiLogoPostgresql size={24} color="38BDF8" />}
-             icon4={<SiTurborepo size={24} color="#FF6B6B" />} 
-             liveUrl="https://github.com/chouhanrahul1999/Exceliodraw"
-             />
-            <JobCard img="/src/assets/paytm.svg" 
-             h1={"Digital payment application"}
-             p={"A digital payment application built with Next.js, TypeScript, and PostgreSQL, featuring secure authentication, P2P transfers, and real-time transaction tracking and intrection with bank."}
-             icon1={<RiNextjsFill size={24} color="FFFFFF" />}
-             icon2={<BiLogoTypescript size={24} color="3178C6" />}
-             icon3={<BiLogoPostgresql size={24} color="38BDF8" />}
-             icon4={<SiPrisma size={24} color="38BDF8" />} 
-             liveUrl="https://github.com/chouhanrahul1999/paytm"
+             icon4={<SiNestjs size={24} color="#FF6B6B" />} 
+             liveUrl="https://github.com/gp360to360/Hospital-Food-Management"
              />
             <JobCard img="/src/assets/brainly.svg" 
              h1={"Brainly - Knowledge Hub"}
@@ -52,7 +44,16 @@ const Projects = () => {
              icon2={<BiLogoTypescript size={24} color="3178C6" />}
              icon3={<SiMongodb size={24} color="00684A" />}
              icon4={<SiExpress size={24} color="38BDF8" />} 
-             liveUrl="https://github.com/chouhanrahul1999/brainly"
+             liveUrl="https://github.com/chouhanrahul1999/paytm"
+             />
+            <JobCard img="/src/assets/Food.svg" 
+             h1={"Tomato - Food Ordering App"}
+             p={"Developed Tomato, a full-stack food ordering application using the MERN stack. It features a responsive frontend built with React, a Node.js/Express.js backend API, and a MongoDB database."}
+             icon1={<FaReact size={24} color="38BDF8" />}
+             icon2={<BiLogoTypescript size={24} color="3178C6" />}
+             icon3={<SiMongodb size={24} color="00684A" />}
+             icon4={<SiExpress size={24} color="38BDF8" />} 
+             liveUrl="https://github.com/gp360to360/Tomato"
              />
             </div>
           </div>

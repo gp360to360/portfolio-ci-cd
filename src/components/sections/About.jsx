@@ -74,7 +74,7 @@ const About = () => {
                   <span className="absolute left-9 top-1/2 -translate-y-3/3 pointer-events-none">
                     <Copy className="w-4 h-4 text-[#C1C2D3]" />
                   </span>
-                  <CopyInput email="chouhanrahul1999@email.com" />
+                  <CopyInput email="gyanpra360@gmail.com" />
                 </div>
               </div>
             </div>

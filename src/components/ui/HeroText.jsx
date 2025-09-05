@@ -27,7 +27,7 @@ const HeroText = () => {
         <div></div>
       </div>
       <div className="text-white text-center font-normal text-[16px] md:text-[24px] px-6 md:tracking-widest">
-        Hi! I’m Rahul Singh, a full‑stack developer based in India
+        Hi! I’m Gyanendra Prajapati, a Software developer based in India
       </div>
       <button
         onClick={handleScrollToProjects}
